@@ -13,7 +13,7 @@ source:
     - 0002-fix-python-compile.diff  # [osx]
 
 build:
-  number: 0
+  number: 1000
   run_exports:
     # This package has been extremely stable
     # https://abi-laboratory.pro/index.php?view=timeline&l=newt

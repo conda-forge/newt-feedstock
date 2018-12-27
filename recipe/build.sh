@@ -2,8 +2,11 @@ autoconf
 
 ./configure \
   --prefix=$PREFIX \
-  --with-python \
+  --without-python \
   --without-tcl
 
 make
 make install
+
+cp $RECIPE_DIR/setup.py .
+$PYTHON -m pip install . --no-deps -vv

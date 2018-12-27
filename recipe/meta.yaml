@@ -8,9 +8,6 @@ package:
 source:
   url: http://fedorahosted.org/releases/n/e/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: 8d66ba6beffc3f786d4ccfee9d2b43d93484680ef8db9397a4fb70b5adbb6dbc
-  patches:
-    - 0001-fix-python-path.diff
-    - 0002-fix-python-compile.diff  # [osx]
 
 build:
   number: 1000
@@ -26,6 +23,7 @@ requirements:
     - autoconf
   host:
     - python
+    - pip
     - popt
     - slang
     - gettext

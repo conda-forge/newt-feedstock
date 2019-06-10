@@ -20,4 +20,3 @@ zip_keys:
   - channel_targets
   - docker_image
   - build_number_decrement
-

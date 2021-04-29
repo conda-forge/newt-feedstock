@@ -38,7 +38,7 @@ test:
 
 about:
   home: https://fedorahosted.org/newt/
-  license: GPL-2.0
+  license: GPL-2.0-or-later
   license_family: GPL
   license_file: COPYING
   summary: 'Newt is a library for color text mode, widget based user interfaces'

@@ -54,7 +54,6 @@ extra:
   recipe-maintainers:
     - mxr-conda
     - sodre
-    - adbeda
     - oblute
     - rluria14
     - matthiasdiener

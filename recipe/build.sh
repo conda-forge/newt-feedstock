@@ -1,4 +1,8 @@
-autoconf 
+#!/bin/bash
+
+set -ex
+
+autoconf
 
 ./configure \
   --prefix=$PREFIX \

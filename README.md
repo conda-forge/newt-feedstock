@@ -1,11 +1,11 @@
-About newt
-==========
+About newt-feedstock
+====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/newt-feedstock/blob/main/LICENSE.txt)
 
 Home: https://fedorahosted.org/newt/
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/newt-feedstock/blob/main/LICENSE.txt)
 
 Summary: Newt is a library for color text mode, widget based user interfaces
 
@@ -19,7 +19,14 @@ Current build status
 ====================
 
 
-<table>
+<table><tr>
+    <td>Travis</td>
+    <td>
+      <a href="https://app.travis-ci.com/conda-forge/newt-feedstock">
+        <img alt="linux" src="https://img.shields.io/travis/com/conda-forge/newt-feedstock/main.svg?label=Linux">
+      </a>
+    </td>
+  </tr>
     
   <tr>
     <td>Azure</td>

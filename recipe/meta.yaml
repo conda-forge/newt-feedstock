@@ -1,5 +1,5 @@
 {% set name = "newt" %}
-{% set version = "0.52.23" %}
+{% set version = "0.52.24" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: http://fedorahosted.org/releases/n/e/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: caa372907b14ececfe298f0d512a62f41d33b290610244a58aed07bbc5ada12a
+  sha256: 5ded7e221f85f642521c49b1826c8de19845aa372baf5d630a51774b544fbdbb
 
 build:
-  number: 2
+  number: 0
   run_exports:
     # This package has been extremely stable
     # https://abi-laboratory.pro/index.php?view=timeline&l=newt

@@ -10,7 +10,7 @@ source:
   sha256: ef0ca9ee27850d1a5c863bb7ff9aa08096c9ed312ece9087b30f3a426828de82
 
 build:
-  number: 0
+  number: 1
   run_exports:
     # This package has been extremely stable
     # https://abi-laboratory.pro/index.php?view=timeline&l=newt

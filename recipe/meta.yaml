@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: http://fedorahosted.org/releases/n/e/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://releases.pagure.org/newt/newt-{{ version }}.tar.gz
   sha256: ef0ca9ee27850d1a5c863bb7ff9aa08096c9ed312ece9087b30f3a426828de82
 
 build:
